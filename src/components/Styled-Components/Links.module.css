@@ -1,0 +1,20 @@
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.links a {
+  font-size: 20px;
+  color: aliceblue;
+  text-decoration: none;
+}
+.links a:hover {
+  color: gray;
+}
+
+@media screen and(max-width: 800px) {
+  .links {
+    display: none;
+  }
+}
